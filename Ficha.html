@@ -11,23 +11,23 @@
         </div>
             <div class="atrNumeros">
                 Liderança:&nbsp&nbsp&nbsp&nbsp
-                <input type="number" value="0" id="lidPont">
+                <input type="number" value=0 id="lidPont">
             </div> 
             <div class="atrNumeros">
                 Recurso:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                <input type="number" value="0" id="resPont">
+                <input type="number" onclick="enterTropa1(),enterTropa2(),enterTropa3()" value= 0 id="resPont">
             </div> 
             <div class="atrNumeros">
                 Aptidão: &emsp;&nbsp&nbsp
-                <input type="number" value="0" id="habPont">
+                <input type="number" onclick="enterTropa1(),enterTropa2(),enterTropa3()" value=0 id="habPont">
             </div>            
             <div class="atrNumeros">
                 Inteligência:&nbsp
-                <input type="number" value="0" id="intPont">
-            </div> 
+                <input type="number" onclick="enterTropa1(),enterTropa2(),enterTropa3()" value=0 id="intPont">
+            </div>
             <div class="atrNumeros">
                 Fé:&emsp;&emsp;&emsp;&nbsp&nbsp&nbsp&nbsp
-                <input type="number" value="0" id="fePont">
+                <input type="number" value=0 id="fePont">
             </div> 
             
             <div>-----------------------------------------------------------------------------------------------</div>        
@@ -53,21 +53,23 @@
                     Especial:<br>
                   <div class="tropasPontos">
                     <select class="TropaSelect" id="Nome1" onchange="enterTropa1()">
-                      <option >Nada</option>
-                      <option >Homens da Guarda</option>
+                      <option>Nada</option>
+                      <option>Homens da Guarda</option>
                       <option>Infantaria Pesada</option>
                       <option>Cavalaria</option>
-                      <option>Infantaria Especial</option>
+                      <option>Infantaria Melta</option>
                       <option>Vindicare Assassin</option>
+                      <option>Tempestus Scions</option>
                       <option>Karsin</option>
                       <option>Ogryn</option>
                       <option>Chimera</option>
                       <option>Scout Sentinel</option>
                       <option>Bane Wolf</option>
                       <option>HellHound</option>
+                      <option>Basilisk</option>
                       <option>Leman Russ Tank</option>
                       <option>Leman Russ Demolisher</option>
-                      <option>Basilisk</option>
+                      
                     </select>
                     <input class="name" type="number" id="vida1" >
                     <input class="name" type="text" id="moral1" >

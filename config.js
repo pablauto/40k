@@ -13,11 +13,9 @@ function calculaDanoAD(){
 }
 
 
-
 function enterTropa1(){
     var nome = document.getElementById("Nome1").value;
-    var base = document.getElementById("baseA1").value;
-    var pRes = parseInt(document.getElementById("resPont").value);
+    var resPont = parseInt(document.getElementById("resPont").value);
     var pHab = parseInt(document.getElementById("habPont").value);
     var pInt = parseInt(document.getElementById("intPont").value);
     var pFe = parseInt(document.getElementById("fePont").value);
@@ -36,44 +34,38 @@ function enterTropa1(){
 
     if ((nome == "Homens da Guarda") || (nome == "homens da guarda"))
     document.getElementById("vida1").value = 20,
-    document.getElementById("moral1").value = 5+pRes+checkbox,
     document.getElementById("cac1").value = 0,
-    document.getElementById("ad1").value = 1+pHab,
-    document.getElementById("armadura1").value = 0 + resPont,
+    document.getElementById("ad1").value = 0+pHab+checkbox+checkbox2+checkbox3,
+    document.getElementById("armadura1").value = 0+resPont,
     document.getElementById("movimento1").value = 3,
     document.getElementById("alcance1").value = 3,
     document.getElementById("especial1").value ="Morrer pelo Imperador"
-    else if ((nome == "Infantaria Pesada") || (nome == "infantaria pesada")){
+    else if (nome == "Infantaria Pesada"){
     document.getElementById("vida1").value = 15,
-    document.getElementById("moral1").value = 5+pRes,
     document.getElementById("cac1").value = 0,
-    document.getElementById("ad1").value = 1+pHab,
+    document.getElementById("ad1").value = 2+pHab+checkbox+checkbox2+checkbox3,
     document.getElementById("armadura1").value = 1,
     document.getElementById("movimento1").value = "3 lento",
     document.getElementById("alcance1").value = 6,
     document.getElementById("especial1").value ="Supressão -2 movimento"}
-    else if ((nome == "cavalaria") || (nome == "Cavalaria")){
-
+    else if (nome == "Cavalaria"){
         document.getElementById("vida1").value = 15,
-        document.getElementById("moral1").value = 5+pRes,
-        document.getElementById("cac1").value = 1,
-        document.getElementById("ad1").value = 0+pHab,
+        document.getElementById("cac1").value = 1+pHab+checkbox+checkbox2+checkbox3,
+        document.getElementById("ad1").value = 0,
         document.getElementById("armadura1").value = 0,
         document.getElementById("movimento1").value = 6,
         document.getElementById("alcance1").value = 1,
-        document.getElementById("especial1").value = checkbox +checkbox2}
-    else if ((nome == "Infantaria Especial") || (nome == "infantaria especial")){
-    document.getElementById("vida1").value = 15,
-    document.getElementById("moral1").value = 5+pRes,
-    document.getElementById("cac1").value = 0,
-    document.getElementById("ad1").value = 1+pHab,
-    document.getElementById("armadura1").value = 1,
-    document.getElementById("movimento1").value = "3 lento",
-    document.getElementById("alcance1").value = 6,
-    document.getElementById("especial1").value ="Armadura -3"}
+        document.getElementById("especial1").value = "-"}
+    else if (nome == "Infantaria Melta"){
+        document.getElementById("vida1").value = 15,
+        document.getElementById("cac1").value = 0,
+        document.getElementById("ad1").value = 1+pHab,
+        document.getElementById("armadura1").value = 1,
+        document.getElementById("movimento1").value = "3 lento",
+        document.getElementById("alcance1").value = 6,
+        document.getElementById("especial1").value ="Armadura -3"}
     else if (nome == "Vindicare Assassin" || nome=="vindicare assasin"){
     document.getElementById("vida1").value = 15,
-    document.getElementById("moral1").value = 5+pRes,
     document.getElementById("cac1").value = 0,
     document.getElementById("ad1").value = 1+pHab,
     document.getElementById("armadura1").value = 0,
@@ -162,7 +154,7 @@ function enterTropa1(){
     document.getElementById("alcance1").value = 6,
     document.getElementById("especial1").value =""}
     else {
-    document.getElementById("especial1").value ="Escreve direito caralho"
+        
     }
 }
 function enterTropa2(){
