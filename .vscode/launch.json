@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///C:/Users/User/Documents/Projetos/RPG%2040K/ficha.html",
+            "url": "file:///C:/Users/pfss/Documents/github/40K/ficha.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

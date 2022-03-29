@@ -44,7 +44,6 @@
                  <div class="tropasAtrib">
                     Tropa<br>
                     Vida:<br>
-                    Moral:<br>
                     CAC:<br>
                     AD:<br>
                     Armadura:<br>
@@ -72,7 +71,6 @@
                       
                     </select>
                     <input class="name" type="number" id="vida1" >
-                    <input class="name" type="text" id="moral1" >
                     <input class="name" type="text" id="cac1" >
                     <input class="name" type="text" id="ad1" >
                     <input class="name" type="text" id="armadura1" >
@@ -86,7 +84,6 @@
                     <div class="tropasAtrib">
                         Tropa:<br>
                         Vida:<br>
-                        Moral:<br>
                         CAC:<br>
                         AD:<br>
                         Armadura:<br>
@@ -95,24 +92,24 @@
                         Especial:<br>
                       <div class="tropasPontos">
                         <select class="TropaSelect" id="Nome2" onchange="enterTropa2()">
-                          <option >Nada</option>
-                          <option >Homens da Guarda</option>
+                          <option>Nada</option>
+                          <option>Homens da Guarda</option>
                           <option>Infantaria Pesada</option>
                           <option>Cavalaria</option>
-                          <option>Infantaria Especial</option>
+                          <option>Infantaria Melta</option>
                           <option>Vindicare Assassin</option>
+                          <option>Tempestus Scions</option>
                           <option>Karsin</option>
                           <option>Ogryn</option>
                           <option>Chimera</option>
                           <option>Scout Sentinel</option>
                           <option>Bane Wolf</option>
                           <option>HellHound</option>
+                          <option>Basilisk</option>
                           <option>Leman Russ Tank</option>
                           <option>Leman Russ Demolisher</option>
-                          <option>Basilisk</option>
                         </select>
                         <input class="name" type="number" id="vida2" >
-                        <input class="name" type="text" id="moral2" >
                         <input class="name" type="text" id="cac2" >
                         <input class="name" type="text" id="ad2" >
                         <input class="name" type="text" id="armadura2" >
@@ -131,7 +128,6 @@
                 <div class="tropasAtrib">
                    Tropa:</b><br>
                    Vida:<br>
-                   Moral:<br>
                    CAC:<br>
                    AD:<br>
                    Armadura:<br>
@@ -140,24 +136,24 @@
                    Especial:<br>
                  <div class="tropasPontos">
                   <select class="TropaSelect" id="Nome3" onchange="enterTropa3()">
-                    <option >Nada</option>
-                    <option >Homens da Guarda</option>
+                    <option>Nada</option>
+                    <option>Homens da Guarda</option>
                     <option>Infantaria Pesada</option>
                     <option>Cavalaria</option>
-                    <option>Infantaria Especial</option>
+                    <option>Infantaria Melta</option>
                     <option>Vindicare Assassin</option>
+                    <option>Tempestus Scions</option>
                     <option>Karsin</option>
                     <option>Ogryn</option>
                     <option>Chimera</option>
                     <option>Scout Sentinel</option>
                     <option>Bane Wolf</option>
                     <option>HellHound</option>
+                    <option>Basilisk</option>
                     <option>Leman Russ Tank</option>
                     <option>Leman Russ Demolisher</option>
-                    <option>Basilisk</option>
                   </select>
                    <input class="name" type="number" id="vida3" >
-                   <input class="name" type="text" id="moral3" >
                    <input class="name" type="text" id="cac3" >
                    <input class="name" type="text" id="ad3" >
                    <input class="name" type="text" id="armadura3" >
@@ -167,17 +163,17 @@
                    <input id="dadoAC" type="button" title="CAC">
                    <input id="dadoAD" type="button" title="AD">
                  </div>
-                 <div><textarea class="livre">Informações</textarea></div>
+                 <div><textarea class="livre">Anotações</textarea></div>
                </div>
            </div> 
            <p>-----------------------------------------------------------------------------------------------</p>
            <div class="checkbox">
-            <div><input type="checkbox" id="baseA1">Base Ofensiva
-            <input type="checkbox" id="baseA2">Base Ofensiva
-            <input type="checkbox" id="baseA3">Base Ofensiva</div>
-            <div><input type="checkbox" id="baseD1">Base Defensiva
-            <input type="checkbox" id="baseD2">Base Defensiva
-            <input type="checkbox" id="baseD3">Base Defensiva</div>
+            <div><input type="checkbox" id="baseA1" onclick="enterTropa1(),enterTropa2(),enterTropa3()">Base Ofensiva
+            <input type="checkbox" id="baseA2" onclick="enterTropa1(),enterTropa2(),enterTropa3()">Base Ofensiva
+            <input type="checkbox" id="baseA3" onclick="enterTropa1(),enterTropa2(),enterTropa3()">Base Ofensiva</div>
+            <div><input type="checkbox" id="baseD1" onclick="enterTropa1(),enterTropa2(),enterTropa3()">Base Defensiva
+            <input type="checkbox" id="baseD2" onclick="enterTropa1(),enterTropa2(),enterTropa3()">Base Defensiva
+            <input type="checkbox" id="baseD3" onclick="enterTropa1(),enterTropa2(),enterTropa3()">Base Defensiva</div>
             <div><input type="checkbox" id="baseR1">Base Reliquia</div>
          </div>   
     </div>
