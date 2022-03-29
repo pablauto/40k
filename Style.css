@@ -1,0 +1,66 @@
+.atrNumeros input{
+    width: 30px;
+    
+}
+.habilidades{
+    line-height: 1;
+    margin-left: 1;
+    margin-top: 20;
+    margin-bottom: 20;
+    width: 448;
+    height: 58;
+    text-align: center;
+}
+
+.table {
+    display: flex;
+}
+.pontos input{
+    width: 38;
+}
+.tropas{
+    display: flex;
+}
+.Equipamentos{
+    line-height: 0.9;
+    margin-left: 10;
+    margin-bottom: -10;
+    width: 290;
+    height: 130;
+    text-align: center;
+}
+.tropasNome input {
+    width: 100;
+}
+.TropaSelect{
+    height: 28px;
+}
+#Tropa1{
+    padding-left: 1;
+    text-align: right;
+}
+.tropasAtrib{
+    line-height: 1.7;
+    padding-left: 4;
+    border: 1pix solid rgb(0, 0, 0);
+    text-align: center;
+    width: 1px;
+    display: flex;
+}
+.tropasPontos input{
+    line-height: 1.5;
+    margin-bottom: 1;
+    width: 140;
+}
+.checkbox{
+    text-align: left;
+    width: 500px;
+    text-align: center;
+}
+.livre{
+    line-height: 1.5;
+    margin-left: 10;
+    width: 215;
+    height: 285;
+    text-align: center;    
+}
