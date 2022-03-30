@@ -65,6 +65,14 @@ function enterTropa1(){
     document.getElementById("movimento1").value = 3,
     document.getElementById("alcance1").value = 3,
     document.getElementById("especial1").value ="Morrer pelo Imperador"
+    else if (nome == "-"){
+      document.getElementById("vida1").value = 0,
+      document.getElementById("cac1").value = 0,
+      document.getElementById("ad1").value = 0,
+      document.getElementById("armadura1").value = 0,
+      document.getElementById("movimento1").value = "0",
+      document.getElementById("alcance1").value = 0,
+      document.getElementById("especial1").value ="-"}
     else if (nome == "Infantaria Pesada"){
     document.getElementById("vida1").value = 15,
     document.getElementById("cac1").value = 0,
@@ -232,6 +240,14 @@ function enterTropa2(){
     document.getElementById("movimento2").value = 3,
     document.getElementById("alcance2").value = 3,
     document.getElementById("especial2").value ="Morrer pelo Imperador"
+    else if (nome == "-"){
+      document.getElementById("vida2").value = 0,
+      document.getElementById("cac2").value = 0,
+      document.getElementById("ad2").value = 0,
+      document.getElementById("armadura2").value = 0,
+      document.getElementById("movimento2").value = "0",
+      document.getElementById("alcance2").value = 0,
+      document.getElementById("especial2").value ="-"}
     else if ((nome2 == "Infantaria Pesada") || (nome2 == "infantaria pesada")){
         document.getElementById("vida2").value = 15,
         document.getElementById("cac2").value = 0,
